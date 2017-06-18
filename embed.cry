@@ -1,0 +1,59 @@
+import Graphics2D;
+
+namespace Tinker3D {
+	class TinkerHelper {
+
+		static constructor() {
+			Graphics2D.registerCustomRenderer(Tinker3D.Internals.g2dSpecialRenderer)
+		}
+
+		static function g2dSpecialRenderer() {
+
+		}
+	}
+
+	class Point {
+		field x;
+		field y;
+		field z;
+		constructor(x, y, z) {
+			this.x = 1.0 * x;
+			this.y = 1.0 * y;
+			this.z = 1.0 * z;
+		}
+	}
+
+	class Scene {
+		field _members = [];
+		field _camera = new Camera(new Point(0, 1, -3), new Point(0, 0, 0));
+
+		constructor() {
+
+		}
+
+		function render() {
+
+		}
+	}
+
+	class Camera {
+		constructor(x, y, z, )
+	}
+
+	class LightSource {
+
+	}
+
+	class Texture {
+
+	}
+
+	class SceneObject {
+		field _vertices = [];
+		field _triangles = [];
+	}
+
+	class Cube : ObjDefinedModel {
+
+	}
+}

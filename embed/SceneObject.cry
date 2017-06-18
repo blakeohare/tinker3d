@@ -1,0 +1,9 @@
+namespace Tinker3D {
+	/*
+		Native data for vertex buffer objects and the like.
+	*/
+	class SceneObject {
+
+		constructor() { }
+	}
+}

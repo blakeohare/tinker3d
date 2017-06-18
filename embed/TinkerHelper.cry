@@ -1,0 +1,5 @@
+namespace Tinker3D {
+	static class TinkerHelper {
+		// nothing here yet.
+	}
+}

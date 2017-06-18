@@ -1,0 +1,23 @@
+import Graphics2D;
+
+namespace Tinker3D {
+	class TinkerScene {
+
+		field _members = [];
+		field _camera = new Camera(new Point3D(0, -1, 6), new Point3D(0, 0, 0));
+		field _lights = [];
+
+		constructor() { }
+
+		function getCamera() { return this._camera; }
+		function addMember(member) { this._members.add(member); return this; }
+
+		function render() {
+			Graphics2D.Draw.special(this._renderCallback, null);
+		}
+
+		function _renderCallback(arg) {
+			// TODO: render this scene.
+		}
+	}
+}

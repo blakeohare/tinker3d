@@ -1,0 +1,15 @@
+namespace Tinker3D {
+	class Point3D {
+		field _values = [0.0] * 3;
+
+		constructor(x, y, z) {
+			this._values[0] = x * 1.0;
+			this._values[1] = y * 1.0;
+			this._values[2] = z * 1.0;
+		}
+
+		function clone() {
+			return new Point3D(this._values[0], this._values[1], this._values[2]);
+		}
+	}
+}

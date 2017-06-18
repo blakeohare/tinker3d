@@ -1,0 +1,4 @@
+NAME: Tinker3D
+AUTHOR: Blake O'Hare
+DOCUMENTATION: http://github.com/blakeohare/tinker3d/README.md
+DESCRIPTION: 3D graphics library for Crayon

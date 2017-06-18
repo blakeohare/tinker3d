@@ -1,0 +1,13 @@
+namespace Tinker3D {
+	class Camera {
+
+		field _location;
+		field _lookingAt;
+
+		constructor(location, lookingAt, tilt = 0.0) {
+			// TODO: implement different tilt values
+			this.location = location.clone();
+			this.lookingAt = lookingAt.clone();
+		}
+	}
+}
